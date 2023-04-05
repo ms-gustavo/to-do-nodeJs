@@ -56,7 +56,7 @@ Após a instalação e configuração, execute o projeto:
 
 npm start
 
-O servidor estará rodando em http://localhost:3000.
+O servidor estará rodando em http://localhost:3000/tasks
 
 # Rotas
 O projeto possui as seguintes rotas:
