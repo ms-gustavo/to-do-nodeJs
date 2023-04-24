@@ -61,22 +61,22 @@ O servidor estará rodando em http://localhost:3000/tasks
 # Rotas
 O projeto possui as seguintes rotas:
 
-/tasks: Lista todas as tarefas cadastradas. Método GET: TaskController.showTasks
+/tasks - Lista todas as tarefas cadastradas. Método GET: TaskController.showTasks
 
 
-/tasks/add: Exibe um formulário para adicionar uma nova tarefa. Método GET: TaskController.createTask
+/tasks/add - Exibe um formulário para adicionar uma nova tarefa. Método GET: TaskController.createTask
 
 
-/tasks/add: Cria uma nova tarefa. Método POST: TaskController.createTaskSave
+/tasks/add - Cria uma nova tarefa. Método POST: TaskController.createTaskSave
 
 
-/tasks/edit/:id: Exibe um formulário para editar uma tarefa. Método GET: TaskController.editTask
+/tasks/edit/:id - Exibe um formulário para editar uma tarefa. Método GET: TaskController.editTask
 
 
-/edit/: Atualiza uma tarefa existente. Método POST: TaskController.editTaskSave
+/edit/ - Atualiza uma tarefa existente. Método POST: TaskController.editTaskSave
 
 
-/tasks/remove: Deleta uma tarefa existente. Método POST: TaskController.deleteTask
+/tasks/remove - Deleta uma tarefa existente. Método POST: TaskController.deleteTask
 
 
-/tasks/updatestatus: Atualiza o status de uma tarefa existente. Método POST: TaskController.toggleTaskStatus
+/tasks/updatestatus - Atualiza o status de uma tarefa existente. Método POST: TaskController.toggleTaskStatus
